@@ -1,0 +1,20 @@
+# Archivos SQL → usar LF
+*.sql text eol=lf
+
+# Código fuente (puedes quitar lo que no uses)
+*.js     text eol=lf
+*.py     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+*.json   text eol=lf
+*.sh     text eol=lf
+
+# Archivos de Windows
+*.bat    text eol=crlf
+*.cmd    text eol=crlf
+
+# Archivos binarios (Git no debe tocarlos)
+*.png    binary
+*.jpg    binary
+*.pdf    binary
+*.zip    binary
